@@ -5,6 +5,8 @@
 - Realized that you learn most in 50 min sessions with 10 min read 20 min implement, 15 min think about question and summarize and 5 min change tasks/plan
 - There are a million frameworks out there, learn the best 2 well. Keras and PyTorch. Done with all other frameworks
 - Know that there are zoos in caffe2, theano is backend, Microsoft CNTK sucks and does a horrible job of replacing keras, logger useful in pytorch, gan network must learn, and mxnet is alright but mainly useful for R. 
+- Gluon also has model zoo in mxnet 
+- MXNet used for R if I need, mxnet very similar to pytorch, pretty good to use for R, mxnet is awesome
 
 ### Machine Learning and Bio
 - Week 5
