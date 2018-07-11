@@ -1,0 +1,5 @@
+1) copy bootstrap examples learn HTML, CSS, and bootstrap
+2) wednesday make reddit and javascript game. 
+3) Thursday make basic website Dong Zhi Cheng level. Friday make okay website Boris level, Saturday make website representative level. Sunday website peter level 
+2) make html + javascript website, game website, javascript website game. 40 min research 20 min implement.  
+3) make website with lots of bootstrap, learn how to do personal website. bootstrap. 15 min read 15 min implement. 30 min done. 
