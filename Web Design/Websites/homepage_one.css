@@ -1,0 +1,12 @@
+p { 
+	font-size: 16px; 
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#title_page.container-fluid {
+	background:url("../images/background.jpg") no-repeat center;
+}
