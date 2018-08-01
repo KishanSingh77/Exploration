@@ -43,7 +43,7 @@ body {
 
 .header {
     height: 95vh;
-    background-image: linear-gradient( to right bottom, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.8)), url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
+    background-image: linear-gradient( to right bottom, rgba(255,0,0,0), rgba(255,0,0,1)), url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
@@ -169,7 +169,7 @@ body {
 
 /******** My Portfolio Section Start *******/
 
-#portfolio {
+#Experience {
     background-image: linear-gradient( to left bottom, rgba(54, 10, 136, 0.8), rgba(139, 0, 0, 0.8)), url(https://images.unsplash.com/photo-1497892597262-2983614aa886?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2051e3b8338218a0f163b9a6ab48bb84&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
     background-position: top;
