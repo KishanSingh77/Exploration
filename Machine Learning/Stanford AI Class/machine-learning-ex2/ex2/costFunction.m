@@ -13,7 +13,7 @@ grad = zeros(size(theta));
 
 % ====================== YOUR CODE HERE ======================
 % Instructions: Compute the cost of a particular choice of theta.
-%               You should set J to the cost.
+%               You should lenset J to the cost.
 %               Compute the partial derivatives and set grad to the partial
 %               derivatives of the cost w.r.t. each parameter in theta
 %
@@ -21,9 +21,27 @@ grad = zeros(size(theta));
 %
 
 
+#{
+for i = 1:m
+  z = X(i, :) * theta
+  J += y(i) * log(sigmoid(z)) + (1 - y(i)) * log((1 - sigmoid(z)))
+endfor 
+J /= -m
 
+for j = 1:length(theta)
+  for i = 1:m
+    z = X(i, :) * theta  
+    grad(j) = grad(j) + (sigmoid(z) - y(i)) * X(i, j)
+  endfor  
+  grad(j) /= m
+endfor
+#}
 
-
+htheta = sigmoid(X * theta);
+J = 1 / m * sum(-y .* log(htheta) - (1 - y) .* log(1 - htheta));
+for i = 1:size(theta, 1)
+    grad(i) = 1 / m * sum((htheta - y) .* X(:, i));
+end
 
 
 
