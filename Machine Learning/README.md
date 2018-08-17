@@ -31,7 +31,7 @@
 # Resources used to Implement these models
 - https://github.com/adventuresinML 
 - https://github.com/keon/deep-q-learning/
--
+- https://machinelearningmastery.com
 
 # Software Principles
 - Simplicity -- Maximize work not done
